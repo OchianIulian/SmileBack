@@ -1,4 +1,4 @@
-package com.example.smell_it;
+package com.example.smellit;
 
 import org.junit.Test;
 

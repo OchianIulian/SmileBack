@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.example.smell_it"
+        applicationId "com.example.smellit"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
