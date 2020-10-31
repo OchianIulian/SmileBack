@@ -29,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
         Home home = new Home();
         fragmentTransaction.add(R.id.container, home);
         fragmentTransaction.commit();
+        //Love
     }
 }
