@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-         openSplash();
+        getOverSplash();
 
     }
 
-    void openSplash(){
+    void getOverSplash(){
 
         getSupportFragmentManager().beginTransaction().add(R.id.container, new Splash()).commit();
         mTimerTask = new TimerTask() {
@@ -36,6 +36,6 @@ public class MainActivity extends AppCompatActivity {
         };
 
         mTimer = new Timer();
-        mTimer.schedule(mTimerTask, 10000);
+        mTimer.schedule(mTimerTask, 5000);
     }
 }
