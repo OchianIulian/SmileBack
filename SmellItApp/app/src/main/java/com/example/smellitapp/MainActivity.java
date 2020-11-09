@@ -3,10 +3,11 @@ package com.example.smellitapp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import android.os.Bundle;
-import android.view.View;
 
-import com.example.smellitapp.Fragments.Home;
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.example.smellitapp.Fragments.HomeParent;
 import com.example.smellitapp.Fragments.Splash;
 import com.example.smellitapp.Managers.FragmentTransactions;
 
@@ -37,12 +38,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getOverSplash(){
-
         fragmentTransactions.addFragment(new Splash());
+
         mTimerTask = new TimerTask() {
             @Override
             public void run() {
-                getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in_frag, R.anim.fade_out_frag).replace(R.id.container, new Home()).commit();
+                startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                //getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.fade_in_frag, R.anim.fade_out_frag).replace(R.id.container, new HomeParent()).commit();
                 //fragmentTransaction.add(R.id.container, new Home());
                 //fragmentTransactions.addFragment(new Home());
             }
