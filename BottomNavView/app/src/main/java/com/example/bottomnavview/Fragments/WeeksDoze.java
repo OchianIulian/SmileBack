@@ -1,4 +1,4 @@
-package com.example.smellitapp.Fragments.Content;
+package com.example.bottomnavview.Fragments;
 
 import android.os.Bundle;
 
@@ -8,17 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.knowitrepo.R;
+import com.example.bottomnavview.R;
 
-public class Home extends Fragment {
-
-
+public class WeeksDoze extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_home2, container, false);
-        return  view;
+        View view = inflater.inflate(R.layout.fragment_weeks_doze, container, false);
+        return view;
     }
 }

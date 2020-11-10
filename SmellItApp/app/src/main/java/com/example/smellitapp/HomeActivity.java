@@ -21,6 +21,8 @@ import com.example.smellitapp.Fragments.Content.WeeksDoze;
 import com.example.smellitapp.Fragments.HomeParent;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import com.example.knowitrepo.R;
+
 public class HomeActivity extends AppCompatActivity {
 
 
@@ -53,10 +55,18 @@ public class HomeActivity extends AppCompatActivity {
                 fragment = new Tips();
                 break;
         }
-        getSupportFragmentManager().beginTransaction().replace(R.id.bnv_container1, fragment).commit();
-        return true;
+        return loadFragment(fragment);
     };
 
+    private boolean loadFragment(Fragment fragment) {
+        if (fragment != null) {
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.bnv_container1 , fragment);
+            ft.commit();
+            return true;
+        }
+        return false;
+    }
 
     private void getData( ) {
         bottomNavigationView = findViewById(R.id.bnv);

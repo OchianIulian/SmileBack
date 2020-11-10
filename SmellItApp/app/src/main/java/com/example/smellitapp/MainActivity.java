@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.knowitrepo.R;
 import com.example.smellitapp.Fragments.HomeParent;
 import com.example.smellitapp.Fragments.Splash;
 import com.example.smellitapp.Managers.FragmentTransactions;
