@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".Fragments.Content.WeekDoze">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/doubleTab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/first_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/de_sters"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/neuton_light"
+                    android:text="Socialism"
+                    android:textColor="#000"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/first_image" />
+
+                <TextView
+                    android:id="@+id/first_q"
+                    style="@style/question_style"
+                    android:text="  Maybe you have heard about socialism but do you know that?"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title" />
+
+                <TextView
+                    android:id="@+id/first_q_content"
+                    style="@style/text_content"
+                    android:textColor="#000"
+                    android:text="@string/socialism_is_a_political_social_and_economic_philosophy_encompassing_a_range_of_economic_and_social_systems_characterised_by_social_ownership_1_2_3_of_the_means_of_production_4_5_6_7_and_workers_self_management_of_enterprises_8_9_it_includes_the_political_theories_and_movements_associated_with_such_systems_10_social_ownership_can_be_public_collective_cooperative_or_of_equity_11_while_no_single_definition_encapsulates_many_types_of_socialism_12_social_ownership_is_the_one_common_element_1_13_14"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/first_q" />
+
+                <TextView
+                    android:id="@+id/second_q"
+                    style="@style/question_style"
+                    android:text="  Also did you know that?"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/first_q_content" />
+
+                <TextView
+                    android:id="@+id/second_q_content"
+                    style="@style/text_content"
+                    android:text="@string/socialism_is_a_political_social_and_economic_philosophy_encompassing_a_range_of_economic_and_social_systems_characterised_by_social_ownership_1_2_3_of_the_means_of_production_4_5_6_7_and_workers_self_management_of_enterprises_8_9_it_includes_the_political_theories_and_movements_associated_with_such_systems_10_social_ownership_can_be_public_collective_cooperative_or_of_equity_11_while_no_single_definition_encapsulates_many_types_of_socialism_12_social_ownership_is_the_one_common_element_1_13_14"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/second_q" />
+
+                <TextView
+                    android:id="@+id/third_q"
+                    style="@style/question_style"
+                    android:text="  Also did you know that?"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/second_q_content" />
+
+                <TextView
+                    android:id="@+id/third_q_content"
+                    style="@style/text_content"
+                    android:text="@string/socialism_is_a_political_social_and_economic_philosophy_encompassing_a_range_of_economic_and_social_systems_characterised_by_social_ownership_1_2_3_of_the_means_of_production_4_5_6_7_and_workers_self_management_of_enterprises_8_9_it_includes_the_political_theories_and_movements_associated_with_such_systems_10_social_ownership_can_be_public_collective_cooperative_or_of_equity_11_while_no_single_definition_encapsulates_many_types_of_socialism_12_social_ownership_is_the_one_common_element_1_13_14"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/third_q" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+<!--    <include-->
+<!--        layout="@layout/layout_persistent_bottom_sheet"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent" />-->
+
+</ScrollView>
+
+
+

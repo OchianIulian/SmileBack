@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KnowItRepo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Know it</string>
+    <string name="socialism_is_a_political_social_and_economic_philosophy_encompassing_a_range_of_economic_and_social_systems_characterised_by_social_ownership_1_2_3_of_the_means_of_production_4_5_6_7_and_workers_self_management_of_enterprises_8_9_it_includes_the_political_theories_and_movements_associated_with_such_systems_10_social_ownership_can_be_public_collective_cooperative_or_of_equity_11_while_no_single_definition_encapsulates_many_types_of_socialism_12_social_ownership_is_the_one_common_element_1_13_14">Socialism is a political, social and economic philosophy encompassing a range of economic and social systems characterised by social ownership[1][2][3] of the means of production[4][5][6][7] and workers\' self-management of enterprises.[8][9] It includes the political theories and movements associated with such systems.[10] Social ownership can be public, collective, cooperative or of equity.[11] While no single definition encapsulates many types of socialism,[12] social ownership is the one common element.[1][13][14]</string>
 </resources>
