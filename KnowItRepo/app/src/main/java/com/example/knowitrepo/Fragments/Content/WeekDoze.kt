@@ -37,8 +37,13 @@ class WeekDoze : Fragment() {
         doubleTab = view.findViewById(R.id.doubleTab)
         doubleTab.setOnClickListener(object : DoubleClickListener() {
             override fun onDoubleClick(v: View?) {
-                Toast.makeText(context, "Double tap", Toast.LENGTH_SHORT).show()
-                bottomSheetFragment.show(fragmentManager!!, "BottomSheetDialog")
+                if(!bottomSheetFragment.isAdded){
+                    bottomSheetFragment.show(fragmentManager!!, "BottomSheetDialog")
+                } else {
+                    Toast.makeText(context, "Calm down bro, tap slowlier!", Toast.LENGTH_SHORT).show()
+                    return
+                }
+
             }
         })
     }

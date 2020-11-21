@@ -50,5 +50,7 @@ dependencies {
 
     //Material design
     implementation 'com.google.android.material:material:1.2.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.mikhaellopez:circularimageview:4.2.0'
 
 }

@@ -15,19 +15,28 @@ class BottomSheetFragment : BottomSheetDialogFragment(){
 
     private lateinit var forgotPassword: TextView
     private lateinit var signUp: TextView
+    private lateinit var mainView: View
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.layout_persistent_bottom_sheet, container, false)
-        getSheetData(view)
-        onClickListeners()
-        return view
+        var ok =1
+        if(ok==1){
+            //TODO: log in
+            mainView = inflater.inflate(R.layout.layout_persistent_bottom_sheet, container, false)
+            getSheetData1(mainView)
+            onClickListeners1()
+        } else {
+            //TODO: open profile, make sugestions, share
+            mainView = inflater.inflate(R.layout.layout_persistent_bottom_sheet_logged_in, container, false)
+        }
+
+        return mainView
     }
 
-    private fun onClickListeners() {
+    private fun onClickListeners1() {
 
         forgotPassword.setOnClickListener{
             dialog!!.dismiss()
@@ -40,7 +49,7 @@ class BottomSheetFragment : BottomSheetDialogFragment(){
         }
     }
 
-    private fun getSheetData(view: View) {
+    private fun getSheetData1(view: View) {
         forgotPassword = view.findViewById(R.id.tvForget)
         signUp = view.findViewById(R.id.tvSignUp)
     }
