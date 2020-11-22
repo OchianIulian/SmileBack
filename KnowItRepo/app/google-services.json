@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "490816674022",
+    "firebase_url": "https://know-it-8f25d.firebaseio.com",
+    "project_id": "know-it-8f25d",
+    "storage_bucket": "know-it-8f25d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490816674022:android:0ccc4978c03fac4ac80327",
+        "android_client_info": {
+          "package_name": "com.example.knowitrepo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490816674022-drviir72aggjtpdqksdm3il7tsh20qpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXPAtcSO8CYq19Ao7i11deaYsgZEJjZVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490816674022-drviir72aggjtpdqksdm3il7tsh20qpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490816674022:android:95123a2f4d6b4722c80327",
+        "android_client_info": {
+          "package_name": "com.example.smellitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490816674022-drviir72aggjtpdqksdm3il7tsh20qpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXPAtcSO8CYq19Ao7i11deaYsgZEJjZVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490816674022-drviir72aggjtpdqksdm3il7tsh20qpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

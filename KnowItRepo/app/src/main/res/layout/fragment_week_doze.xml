@@ -17,12 +17,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageView
+                <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/first_image"
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:background="@drawable/de_sters"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:shapeAppearanceOverlay="@style/roundedImageView"
+                    app:strokeColor="@color/night_blue"
+                    app:strokeWidth="7dp"
+                    android:src="@drawable/de_sters"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="260dp"
+                    android:layout_width="254dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
 
                 <TextView
                     android:id="@+id/title"
@@ -51,6 +59,10 @@
                     android:text="@string/socialism_is_a_political_social_and_economic_philosophy_encompassing_a_range_of_economic_and_social_systems_characterised_by_social_ownership_1_2_3_of_the_means_of_production_4_5_6_7_and_workers_self_management_of_enterprises_8_9_it_includes_the_political_theories_and_movements_associated_with_such_systems_10_social_ownership_can_be_public_collective_cooperative_or_of_equity_11_while_no_single_definition_encapsulates_many_types_of_socialism_12_social_ownership_is_the_one_common_element_1_13_14"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/first_q" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
 
                 <TextView
                     android:id="@+id/second_q"
