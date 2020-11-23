@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.example.knowitrepo.Fragments.HomeParent
-import com.example.knowitrepo.Fragments.Splash
+import com.example.knowitrepo.fragments.HomeParent
+import com.example.knowitrepo.fragments.Splash
 
 class MainActivity : AppCompatActivity() {
 

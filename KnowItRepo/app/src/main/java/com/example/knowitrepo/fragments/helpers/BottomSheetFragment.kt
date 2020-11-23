@@ -1,4 +1,4 @@
-package com.example.knowitrepo.Fragments.Helpers
+package com.example.knowitrepo.fragments.helpers
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
-import com.example.knowitrepo.Fragments.Register.ForgotPassword
-import com.example.knowitrepo.Fragments.Register.Register
+import com.example.knowitrepo.fragments.register.ForgotPassword
+import com.example.knowitrepo.fragments.register.Register
 import com.example.knowitrepo.R
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.firebase.auth.FirebaseAuth

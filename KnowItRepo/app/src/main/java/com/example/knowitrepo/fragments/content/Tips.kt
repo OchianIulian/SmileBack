@@ -1,4 +1,4 @@
-package com.example.knowitrepo.Fragments.Content
+package com.example.knowitrepo.fragments.content
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,9 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.Toast
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.example.knowitrepo.Fragments.Helpers.BottomSheetFragment
-import com.example.knowitrepo.Fragments.Helpers.DoubleClickListener
+import com.example.knowitrepo.fragments.helpers.BottomSheetFragment
+import com.example.knowitrepo.fragments.helpers.DoubleClickListener
 import com.example.knowitrepo.R
 
 class Tips : Fragment() {

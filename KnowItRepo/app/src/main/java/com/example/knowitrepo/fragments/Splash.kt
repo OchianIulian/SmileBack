@@ -1,4 +1,4 @@
-package com.example.knowitrepo.Fragments
+package com.example.knowitrepo.fragments
 
 import android.os.Bundle
 import android.os.Handler

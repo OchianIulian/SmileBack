@@ -1,4 +1,4 @@
-package com.example.knowitrepo.Fragments.Content
+package com.example.knowitrepo.fragments.content
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

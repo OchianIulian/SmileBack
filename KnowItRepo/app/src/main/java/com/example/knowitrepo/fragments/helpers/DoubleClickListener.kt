@@ -1,4 +1,4 @@
-package com.example.knowitrepo.Fragments.Helpers
+package com.example.knowitrepo.fragments.helpers
 
 import android.view.View
 

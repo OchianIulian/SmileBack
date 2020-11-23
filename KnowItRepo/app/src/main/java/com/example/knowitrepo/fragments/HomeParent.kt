@@ -1,19 +1,15 @@
-package com.example.knowitrepo.Fragments
+package com.example.knowitrepo.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.example.knowitrepo.Fragments.Content.Home
-import com.example.knowitrepo.Fragments.Content.Tips
-import com.example.knowitrepo.Fragments.Content.WeekDoze
+import com.example.knowitrepo.fragments.content.Home
+import com.example.knowitrepo.fragments.content.Tips
+import com.example.knowitrepo.fragments.content.WeekDoze
 import com.example.knowitrepo.R
-import com.example.knowitrepo.R.id.layout
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.bottomsheet.BottomSheetBehavior
-import com.example.knowitrepo.R.id.bottomSheet as bottomSheet
 
 
 class HomeParent : Fragment() {
